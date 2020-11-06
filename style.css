@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+canvas{
+    border: 1px solid black;
+    display: block;
+    /* margin: 0 auto; */
+    background-color:black;
+    visibility: visible;
+}
+
+#container{
+    position: relative;
+}
+
+#container canvas,#overlay{
+    position: absolute;
+}
+
+#overlay{
+    height:400px;
+    width: 500px;
+    border-radius: 5%;
+    background-color:lightblue;
+    margin-left:35%;
+    margin-top:15%;
+    visibility: hidden;
+   
+}
+
+#result{
+    position: relative;
+    left:150px;
+    top:20px;
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+
+#score{
+    position: relative;
+    left:30px;
+    top:80px;
+    color: green;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#best-score{
+    position: relative;
+    left:30px;
+    top:160px;
+    color:goldenrod;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#play-again{
+    position: relative;
+    border-radius: 10%;
+    height: 30px;
+    width: 140px;
+    left:170px;
+    top:240px;
+    background-color: green;
+    font-weight: bolder;
+}
